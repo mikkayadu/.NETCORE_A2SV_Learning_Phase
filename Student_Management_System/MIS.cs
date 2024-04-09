@@ -74,16 +74,30 @@ namespace Student_Management_System
 
             public static async Task SerializeStudentListAsync(StudentList<Student> studentList, string filePath)
             {
-                var options = new JsonSerializerOptions { WriteIndented = true };
-                string jsonString = JsonSerializer.Serialize(studentList, options);
+                try
+                {
+                    var options = new JsonSerializerOptions { WriteIndented = true };
+                    string jsonString = JsonSerializer.Serialize(studentList, options);
 
-                await File.WriteAllTextAsync(filePath, jsonString);
+                    await File.WriteAllTextAsync(filePath, jsonString);
+                }
+                catch (Exception ex) { 
+                    Console.WriteLine(ex.Message)
+                }
             }
 
             public static async Task<StudentList<Student>> DeserializeStudentListAsync(string filePath)
             {
-                string jsonString = await File.ReadAllTextAsync(filePath);
-                return JsonSerializer.Deserialize<StudentList<Student>>(jsonString);
+                try
+                {
+                    string jsonString = await File.ReadAllTextAsync(filePath);
+                    return JsonSerializer.Deserialize<StudentList<Student>>(jsonString);
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
             }
 
 
