@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student_Management_System", "Student_Management_System.csproj", "{587E3F9D-5FFD-44E1-AA16-96BD44F6705E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskManager", "..\TaskManager\TaskManager.csproj", "{FFA28A71-A95C-4C4E-9705-2769D3806ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{587E3F9D-5FFD-44E1-AA16-96BD44F6705E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587E3F9D-5FFD-44E1-AA16-96BD44F6705E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587E3F9D-5FFD-44E1-AA16-96BD44F6705E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587E3F9D-5FFD-44E1-AA16-96BD44F6705E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA28A71-A95C-4C4E-9705-2769D3806ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA28A71-A95C-4C4E-9705-2769D3806ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA28A71-A95C-4C4E-9705-2769D3806ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA28A71-A95C-4C4E-9705-2769D3806ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2E51CF-6DB0-4E8D-9F7D-4240314D487D}
+	EndGlobalSection
+EndGlobal
