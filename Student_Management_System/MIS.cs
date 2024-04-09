@@ -178,7 +178,7 @@ namespace Student_Management_System
                 Console.WriteLine();
 
             }
-
+            Console.WriteLine();
 
 
 
