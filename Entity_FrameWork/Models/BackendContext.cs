@@ -30,7 +30,7 @@ public partial class BackendContext : DbContext
             entity.ToTable("item", "account");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Descriptio).HasColumnName("descriptio");
+            entity.Property(e => e.Description).HasColumnName("descriptio");
             entity.Property(e => e.Name).HasColumnName("name");
         });
 

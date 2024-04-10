@@ -9,5 +9,5 @@ public partial class Item
 
     public string Name { get; set; } = null!;
 
-    public string? Descriptio { get; set; }
+    public string? Description { get; set; }
 }
